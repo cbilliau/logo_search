@@ -1,5 +1,5 @@
 body div {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 .pageTitle	{
@@ -26,25 +26,25 @@ body div {
 	margin: 8em 1em 1.5em 1em;
 	width: 200px;
 }
-.images	{
+.imageArea	{
 	display: flex;
-	/*flex-direction: row;*/
+	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 0 auto;
 	width: 30em;
 	height: 20em;
 }
-.images div {
+.imageArea div {
 	margin: 0 0;
 	width: 7.37em;
 	height: 7.37em;
 }
-.images div img {
+.imageArea div img {
 	margin: 2em auto;
 }
 div>img.on {
 	display: flex;
 }
-div>img.off	{
+div img.off	{
 	display: none;
 }

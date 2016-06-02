@@ -3,7 +3,7 @@ body div {
 }
 
 .pageTitle	{
-	margin: 1em auto 0 auto;
+	margin: 2em auto 0 auto;
 	width: 30em;
 	height: 3em;
 	text-align: center;
@@ -24,9 +24,30 @@ body div {
 	text-align: center;
 }
 
-.menuArea select {
-	margin: 8em 1em 1.5em 1em;
+select {
+	margin: 6em 1em .5em 1em;
 	width: 200px;
+	/*height: 2em;*/
+	border: 1px solid #111;
+	background: white;
+	font-size: .9em;
+	border: 1px solid #111;
+}
+
+button:hover {
+    border:3px solid lightsteelblue;
+}
+button:focus {
+    outline: none;
+}
+
+.search	{
+	margin: .5em auto;
+	width: 100px;
+	height: 2.25em;
+	background-color: darkred;
+	color: white;
+	border: none;
 }
 
 .imageArea	{
@@ -50,8 +71,16 @@ body div {
 
 div img.on {
 	display: flex;
+
 }
 
 div img.off	{
 	display: none;
 }
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }

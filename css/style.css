@@ -1,0 +1,46 @@
+body div {
+	border: 1px solid red;
+}
+
+.pageTitle	{
+	margin: 1em auto 0 auto;
+	width: 35em;
+	height: 5em;
+	text-align: center;
+
+}
+.pageTitle h1 {
+	margin: 1.5em auto;
+	font-family: Petit Formal Script;
+	color: darkred;
+	font-size: 1.5em;
+}
+.menuArea	{
+	background-color: lightgrey;
+	margin: 0 auto 0 auto;
+	width: 35em;
+	height: 10em;
+	text-align: center;
+}
+.menuArea select {
+	margin: 8em 1em 1.5em 1em;
+	width: 200px;
+}
+.images	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 35em;
+	height: 20em;
+}
+.images div {
+	width: 8em;
+	height: 8em;
+}
+.displayOn {
+	display: flex;
+}
+.displayOff	{
+	display: none;
+}

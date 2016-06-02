@@ -15,6 +15,7 @@ body div {
 	color: darkred;
 	font-size: 1.5em;
 }
+
 .menuArea	{
 	background-color: lightgrey;
 	margin: 0 auto 0 auto;
@@ -22,10 +23,12 @@ body div {
 	height: 10em;
 	text-align: center;
 }
+
 .menuArea select {
 	margin: 8em 1em 1.5em 1em;
 	width: 200px;
 }
+
 .imageArea	{
 	display: flex;
 	flex-direction: row;
@@ -34,17 +37,21 @@ body div {
 	width: 30em;
 	height: 20em;
 }
+
 .imageArea div {
 	margin: 0 0;
 	width: 7.37em;
 	height: 7.37em;
 }
+
 .imageArea div img {
 	margin: 2em auto;
 }
+
 div img.on {
 	display: flex;
 }
+
 div img.off	{
 	display: none;
 }

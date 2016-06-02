@@ -70,6 +70,7 @@ var View = {
 		};
 	}
 }
+
 var Method = {
 	setValuePrgmType: function()	{
 		var value = $('select.programType').val();
@@ -84,6 +85,7 @@ var Method = {
 		EduType = '';
 	}
 }
+
 $(function() {
 	$('.search').on('click', function(e)	{
 		e.preventDefault();
@@ -94,8 +96,4 @@ $(function() {
 		console.log(PrgmType, EduType);
 		View.renderImgArea();
 	});
-	// View.renderFour();
-	// 	View.renderThree();
-	// 		View.renderOne();
-	// 			View.renderTwo();
 });

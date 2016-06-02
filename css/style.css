@@ -42,7 +42,7 @@ body div {
 .imageArea div img {
 	margin: 2em auto;
 }
-div>img.on {
+div img.on {
 	display: flex;
 }
 div img.off	{
